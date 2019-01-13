@@ -1,0 +1,21 @@
+# RandomCall
+大学期间的一次课程作业</br>
+概述：</br>
+目前，在学校中点名是考勤的一种主要手段，但是如果每次点名都将所有的学生点一次，花费的时间比较多。并且，在学校中存在替课、帮忙答道等现象，为了解决上述问题，本系统采用随机产生名单的方式，由软件使用人输入点名人数，系统自动匹配名单。</br>
+功能分析：</br>
+1、点名学生名单</br>
+2、学生身份认证</br>
+3、查看学生名单</br>
+4、点名记录管理</br>
+5、点名功能实现</br>
+6、使用说明功能</br>
+项目截图：</br>
+![image](https://github.com/TankSao/RandomCall/blob/master/ScreenShot/img1.jpg)</br>
+![image](https://github.com/TankSao/RandomCall/blob/master/ScreenShot/img2.jpg)</br>
+![image](https://github.com/TankSao/RandomCall/blob/master/ScreenShot/img3.jpg)</br>
+![image](https://github.com/TankSao/RandomCall/blob/master/ScreenShot/img4.jpg)</br>
+![image](https://github.com/TankSao/RandomCall/blob/master/ScreenShot/img5.jpg)</br>
+![image](https://github.com/TankSao/RandomCall/blob/master/ScreenShot/img6.jpg)</br>
+![image](https://github.com/TankSao/RandomCall/blob/master/ScreenShot/img7.jpg)</br>
+![image](https://github.com/TankSao/RandomCall/blob/master/ScreenShot/img8.jpg)</br>
+![image](https://github.com/TankSao/RandomCall/blob/master/ScreenShot/img9.jpg)</br>
