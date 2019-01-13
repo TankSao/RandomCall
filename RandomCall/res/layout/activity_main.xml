@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/background_light"
+    >
+    <RelativeLayout 
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="随机点名系统"
+            android:textSize="24sp"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bj"
+        android:scaleType="fitXY"
+        >
+        </ImageView>
+
+    <LinearLayout
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonCall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="开始点名"
+            android:textColor="#ffff4444" />
+
+        <Button
+            android:id="@+id/buttonList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="以往点名"
+            android:textColor="#ffff4444" />
+
+    </LinearLayout>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:paddingLeft="10dp"
+        >
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textSize="16sp"
+            android:text="制作人："
+            />
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:textSize="16sp"
+            android:text="谭桂涛"
+            />
+        </LinearLayout>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:paddingLeft="10dp"
+        
+        >
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textSize="16sp"
+            android:text="所在班级："
+            />
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:textSize="16sp"
+            android:text="电商2班"
+            />
+        </LinearLayout>
+<Button 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="使用说明"
+    android:id="@+id/btn_sysm"
+    />
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        
+        >
+<Button 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="电商1班"
+    android:layout_weight="1"
+    android:id="@+id/btn_ds1"
+    />
+<Button 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="电商2班"
+    android:layout_weight="1"
+    android:id="@+id/btn_ds2"
+    />
+</LinearLayout>
+</LinearLayout>
